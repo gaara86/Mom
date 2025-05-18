@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clone https://github.com/gaara86/Unhided .
+RUN git clone https://github.com/gaara86/Mom .
 
 # Copy the local config.json file to the container
 
